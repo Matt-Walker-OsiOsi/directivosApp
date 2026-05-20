@@ -1,0 +1,7 @@
+{
+  "name": "directivosApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

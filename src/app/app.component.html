@@ -1,0 +1,74 @@
+<ion-app>
+
+  <ion-menu contentId="main-content">
+
+    <ion-header>
+      <ion-toolbar>
+        <ion-title>Menú</ion-title>
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-content>
+      <ion-list>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item button="true" routerLink="/interpolacion">
+            <ion-label>Bienvenida</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item button="true" routerLink="/binding">
+            <ion-label>Binding</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item button="true" routerLink="/binding/property">
+            <ion-label>Property</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item button="true" routerLink="/binding/event">
+            <ion-label>Event</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item button="true" routerLink="/binding/double">
+            <ion-label>Double</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <ion-menu-toggle auto-hide="true">
+          <ion-item button="true" routerLink="/vista">
+            <ion-label>Vista</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+      </ion-list>
+    </ion-content>
+
+  </ion-menu>
+
+  <div id="main-content">
+    <ion-header>
+      <ion-toolbar>
+
+        <ion-buttons slot="start">
+          <ion-menu-button></ion-menu-button>
+        </ion-buttons>
+
+        <ion-title>
+          Directivos APP 👻
+        </ion-title>
+
+      </ion-toolbar>
+    </ion-header>
+
+    <ion-router-outlet></ion-router-outlet>
+
+  </div>
+
+</ion-app>
